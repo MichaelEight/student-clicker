@@ -7,10 +7,9 @@ export default function App() {
 
   return (
     <View style={styles.container}>
-      <Text>Open up App.tsx to start working on your app!</Text>
-      <Text>{count}</Text>
-      <Button title="Click me" onPress={() => setCount(count + 1)}></Button>
-      
+      <Text>ECTS:{count}</Text>
+      <Button title="Click!" onPress={() => setCount(count + 1)}></Button>
+
       <StatusBar style="auto" />
     </View>
   );
